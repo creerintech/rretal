@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="PropertyRentReceipt" targetNamespace="http://tempuri.org/PropertyRentReceipt.xsd" xmlns:mstns="http://tempuri.org/PropertyRentReceipt.xsd" xmlns="http://tempuri.org/PropertyRentReceipt.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="PropertyRentReceipt" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="PropertyRentReceipt" msprop:Generator_DataSetName="PropertyRentReceipt">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReceiptMaster" msprop:Generator_UserTableName="ReceiptMaster" msprop:Generator_RowDeletedName="ReceiptMasterRowDeleted" msprop:Generator_TableClassName="ReceiptMasterDataTable" msprop:Generator_RowChangedName="ReceiptMasterRowChanged" msprop:Generator_RowClassName="ReceiptMasterRow" msprop:Generator_RowChangingName="ReceiptMasterRowChanging" msprop:Generator_RowEvArgName="ReceiptMasterRowChangeEvent" msprop:Generator_RowEvHandlerName="ReceiptMasterRowChangeEventHandler" msprop:Generator_TablePropName="ReceiptMaster" msprop:Generator_TableVarName="tableReceiptMaster" msprop:Generator_RowDeletingName="ReceiptMasterRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="_x0023_" msprop:Generator_UserColumnName="#" msprop:Generator_ColumnPropNameInRow="__" msprop:Generator_ColumnVarNameInTable="_column_" msprop:Generator_ColumnPropNameInTable="__Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ReceiptVoucherId" msprop:Generator_UserColumnName="ReceiptVoucherId" msprop:Generator_ColumnPropNameInRow="ReceiptVoucherId" msprop:Generator_ColumnVarNameInTable="columnReceiptVoucherId" msprop:Generator_ColumnPropNameInTable="ReceiptVoucherIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PartyName" msprop:Generator_UserColumnName="PartyName" msprop:Generator_ColumnPropNameInRow="PartyName" msprop:Generator_ColumnVarNameInTable="columnPartyName" msprop:Generator_ColumnPropNameInTable="PartyNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PartyId" msprop:Generator_UserColumnName="PartyId" msprop:Generator_ColumnPropNameInRow="PartyId" msprop:Generator_ColumnVarNameInTable="columnPartyId" msprop:Generator_ColumnPropNameInTable="PartyIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="PropertyId" msprop:Generator_UserColumnName="PropertyId" msprop:Generator_ColumnPropNameInRow="PropertyId" msprop:Generator_ColumnVarNameInTable="columnPropertyId" msprop:Generator_ColumnPropNameInTable="PropertyIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Property" msprop:Generator_UserColumnName="Property" msprop:Generator_ColumnPropNameInRow="Property" msprop:Generator_ColumnVarNameInTable="columnProperty" msprop:Generator_ColumnPropNameInTable="PropertyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitNo" msprop:Generator_UserColumnName="UnitNo" msprop:Generator_ColumnPropNameInRow="UnitNo" msprop:Generator_ColumnVarNameInTable="columnUnitNo" msprop:Generator_ColumnPropNameInTable="UnitNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ReceiptNo" msprop:Generator_UserColumnName="ReceiptNo" msprop:Generator_ColumnPropNameInRow="ReceiptNo" msprop:Generator_ColumnVarNameInTable="columnReceiptNo" msprop:Generator_ColumnPropNameInTable="ReceiptNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ReceiptDate" msprop:Generator_UserColumnName="ReceiptDate" msprop:Generator_ColumnPropNameInRow="ReceiptDate" msprop:Generator_ColumnVarNameInTable="columnReceiptDate" msprop:Generator_ColumnPropNameInTable="ReceiptDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ForTheMonth" msprop:Generator_UserColumnName="ForTheMonth" msprop:Generator_ColumnPropNameInRow="ForTheMonth" msprop:Generator_ColumnVarNameInTable="columnForTheMonth" msprop:Generator_ColumnPropNameInTable="ForTheMonthColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VoucherAmt" msprop:Generator_UserColumnName="VoucherAmt" msprop:Generator_ColumnPropNameInRow="VoucherAmt" msprop:Generator_ColumnVarNameInTable="columnVoucherAmt" msprop:Generator_ColumnPropNameInTable="VoucherAmtColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Narration" msprop:Generator_UserColumnName="Narration" msprop:Generator_ColumnPropNameInRow="Narration" msprop:Generator_ColumnVarNameInTable="columnNarration" msprop:Generator_ColumnPropNameInTable="NarrationColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,19 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPages/MainMenu.master" AutoEventWireup="true" CodeFile="AccessDenied.aspx.cs" Inherits="ErrorPages_AccessDenied" Title="Access Denied" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Title" Runat="Server">
+Access Denied
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Body" Runat="Server">
+<div class="SubTitle">
+    
+        Sorry For the Inconvenience</div>
+        
+        <div class="SubTitle">
+        Kindly clear outstanding amount in order to continue.<br />
+        <br />
+        Thank You<br />
+        <br />
+        </div> 
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="NavigationFooter1" Runat="Server">
+</asp:Content>
+

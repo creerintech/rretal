@@ -1,0 +1,45 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPages/MainMenu.master" AutoEventWireup="true" CodeFile="Error.aspx.cs" Inherits="ErrorPages_Error" Title="Error" %>
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="ajax" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Title" Runat="Server">
+Error
+<ajax:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server"></ajax:ToolkitScriptManager>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Body" Runat="Server">
+<asp:UpdatePanel ID="updatePanal1" runat="server">
+<ContentTemplate>
+<asp:UpdateProgress ID="UpdateProgress1" runat="server" >
+            <ProgressTemplate>            
+          <div id="progressBackgroundFilter"></div>
+                                <div id="processMessage">   
+                                <center><span class="SubTitle">Loading....!!! </span></center>
+                                    <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/Icon/updateprogress.gif" />                                
+                                </div> 
+            </ProgressTemplate>
+                </asp:UpdateProgress>
+<div class="SubTitle">
+    
+        Sorry For the Inconvenience</div>
+        
+        <div class="SubTitle">
+        Error has occured on the page or you are not a authorized user. Please notify development
+        team.<br />
+        <br />
+        Thank You<br />
+        <br />
+        <asp:LinkButton ID="DetailLinkButton" runat="server" OnClick="DetailLinkButton_Click">Show Details</asp:LinkButton>
+        <br />
+        <asp:Panel ID="MessagePanel" runat="server" Height="100%" Visible="False" Width="100%">
+            <br />
+            <asp:TextBox ID="MessageTextBox" runat="server" Height="200px" ReadOnly="True" TextMode="MultiLine" CssClass="Error" 
+                Width="100%" BorderStyle="Ridge" BorderWidth="1" BorderColor="Gray"></asp:TextBox>               
+                </asp:Panel>
+                
+              <%--  <div id="EmailMessageDiv" runat="server"  class="Error"></div> --%>
+    
+    </div>
+    </ContentTemplate> 
+    </asp:UpdatePanel> 
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="NavigationFooter1" Runat="Server">
+</asp:Content>
+

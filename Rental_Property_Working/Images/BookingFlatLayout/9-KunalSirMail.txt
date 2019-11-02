@@ -1,0 +1,32 @@
+Karia Sales
+
+//Registration Details
+
+//Date
+//Haveli No
+//Registration No
+//Scanned copy of index 2
+//Remarks
+
+Loan details
+
+Name of bank
+Agent name
+Mobile no
+Loan amount
+Remarks
+
+Bank master
+
+Add a grid
+
+Agent name
+Mobile no
+Previously employed with
+Remarks
+
+
+
+
+
+Sent from my iPhone

@@ -1,0 +1,6 @@
+Stuff Simple Query
+---------------------------
+select distinct DocumentNo,DocumentSubject,DocumentTitle,DepartmentCategory,
+	STUFF(( select ',' + cast(d.Party as nvarchar) from VW_FinalGrid d	
+	FOR XML PATH('')),1,1,'') as Part
+	from VW_FinalGrid

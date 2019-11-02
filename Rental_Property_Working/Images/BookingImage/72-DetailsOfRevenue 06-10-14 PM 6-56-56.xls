@@ -1,0 +1,45 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Filter</th><th scope="col">Name</th>
+		</tr><tr>
+			<td>From Booking Date</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>To Booking Date</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>Project</td><td>Konark Epitome</td>
+		</tr><tr>
+			<td>Building</td><td>A</td>
+		</tr><tr>
+			<td>Flat No</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>Flat Type</td><td>A</td>
+		</tr><tr>
+			<td>Employee</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>Customer</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div><div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">SrNo</th><th scope="col">Name</th><th scope="col">Project</th><th scope="col">Building</th><th scope="col">FlatNo</th><th scope="col">FlatType</th><th scope="col">Area*Rate</th><th scope="col">InfrastuctureAmt</th><th scope="col">AgreementValue</th><th scope="col">OtherCharges</th><th scope="col">ServiceTax</th><th scope="col">StampDuty</th><th scope="col">Registration</th>
+		</tr><tr>
+			<td>1</td><td>Nitesh. M. Kanthrod</td><td>Konark Epitome</td><td>A</td><td>406</td><td>Office</td><td>6246139.9800000</td><td>1312860.00</td><td>7559000.00</td><td>19600.00</td><td>0.00</td><td>453600.00</td><td>30000.00</td>
+		</tr><tr>
+			<td>2</td><td>Shreya Shah</td><td>Konark Epitome</td><td>A</td><td>403</td><td>Office</td><td>11168180.0000000</td><td>1049140.00</td><td>12217320.00</td><td>19600.00</td><td>0.00</td><td>733100.00</td><td>30000.00</td>
+		</tr><tr>
+			<td>3</td><td>Usha Talreja</td><td>Konark Epitome</td><td>A</td><td>401</td><td>Office</td><td>6199078.0398000</td><td>499382.00</td><td>6698460.00</td><td>19600.00</td><td>0.00</td><td>402000.00</td><td>30000.00</td>
+		</tr><tr>
+			<td>4</td><td>Bhujang Lavhe</td><td>Konark Epitome</td><td>A</td><td>405</td><td>Office</td><td>8127200.0592000</td><td>1450000.00</td><td>9577200.00</td><td>19600.00</td><td>0.00</td><td>574700.00</td><td>30000.00</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Total</td><td>31740598.0790000</td><td>4311382.00</td><td>36051980.00</td><td>78400.00</td><td>0.00</td><td>2163400.00</td><td>120000.00</td>
+		</tr>
+	</table>
+</div>

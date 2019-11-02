@@ -1,0 +1,27 @@
+truncate table PCTemplate
+truncate table ChargeTypeNew
+truncate table TaxTemplateMaster
+truncate table TaxTemplateDtls
+
+
+truncate table BookingMaster
+truncate table BookingAgreementChargesDetails
+truncate table BookingChargesDetails
+truncate table BookingParkingDetails
+truncate table DocumentImage
+truncate table BookingPaymentScheduleDetails
+truncate table BookingTermsConds
+
+Select * From BookingMaster
+Select * From BookingAgreementChargesDetails
+Select * From BookingChargesDetails
+Select * From BookingParkingDetails
+Select * From DocumentImage
+Select * From BookingPaymentScheduleDetails
+Select * From BookingTermsConds
+
+
+OnRowDataBound="GridIndependantCharges_RowDataBound"
+
+txtCalAfterAV_TextChanged
+txtTaxAmountAfterAV_TextChanged

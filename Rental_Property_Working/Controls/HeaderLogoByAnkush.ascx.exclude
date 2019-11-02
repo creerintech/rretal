@@ -1,0 +1,19 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="HeaderLogoByAnkush.ascx.cs" Inherits="Controls_HeaderLogo" %>
+
+ <!-- Header -->
+   <div class="header">
+			<div class="top_info">			
+				<div class="top_info_right">
+					<p><b>Welcome : Admin - [Administrator]</b><br />
+					Do you want to <a href="#">Change Password</a> ? </p>
+				</div>						
+				<div class="top_info_left">
+				<h1><a href="../Masters/Default.aspx" title="Mayur Thali"><span class="green">Land Acquisition Management System</span></a></h1>
+					<%--<p><b>17. Sep, 2012</b> - Monday<br />
+					Check todays <a href="#">Estimate's</a> or <a href="#">Job Card's</a></p>--%>
+				</div>				
+			</div>			
+			<div class="logo">
+			    <a href="javascript:void(0);"><img src="../Images/MasterPages/Revodynamic.png" alt="" title="" /></a>				
+			</div>
+		</div><!-- /header -->

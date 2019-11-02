@@ -1,0 +1,63 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Filter</th><th scope="col">Name</th>
+		</tr><tr>
+			<td>From Date</td><td>19-Jul-2014</td>
+		</tr><tr>
+			<td>To Date</td><td>19-Aug-2014</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>Project</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div><div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">SrNo</th><th scope="col">Project</th><th scope="col">Building</th><th scope="col">OpeningSales</th><th scope="col">SalesForPeriod</th><th scope="col">TotalSales</th><th scope="col">OpeningDue</th><th scope="col">DueForPeriod</th><th scope="col">TotalDue</th><th scope="col">OpeningCollection</th><th scope="col">CollectionForPeriod</th><th scope="col">TotalCollection</th><th scope="col">OpeningOutStanding</th><th scope="col">ClosingOutStanding</th>
+		</tr><tr>
+			<td>1</td><td>Konark Belvedere</td><td>A</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr>
+			<td>2</td><td>Konark Bella Vista</td><td>A</td><td>37</td><td>5</td><td>42</td><td>1169040.600000000</td><td>21703754.664500000</td><td>22872795.264500000</td><td>0</td><td>1000000.00</td><td>1000000.00</td><td>1169040.600000000</td><td>21872795.264500000</td>
+		</tr><tr>
+			<td>3</td><td>Konark Bella Vista</td><td>B</td><td>31</td><td>1</td><td>32</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr>
+			<td>4</td><td>Test Project</td><td>A</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr>
+			<td>5</td><td>Konark Oasis</td><td>A</td><td>34</td><td>7</td><td>41</td><td>0</td><td>5967862.187546000</td><td>5967862.187546000</td><td>5053162.343645000</td><td>3376421.087546000</td><td>8429583.431191000</td><td>-5053162.343645000</td><td>2591441.100000000</td>
+		</tr><tr>
+			<td>6</td><td>Konark Oasis</td><td>B</td><td>26</td><td>1</td><td>27</td><td>0</td><td>128209.800000000</td><td>128209.800000000</td><td>0</td><td>0</td><td>0</td><td>0</td><td>128209.800000000</td>
+		</tr><tr>
+			<td>7</td><td>Test For Srv Tax</td><td>A</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr>
+			<td>8</td><td>SwargLok in Heaven</td><td>SL -A</td><td>2</td><td>0</td><td>2</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr>
+			<td>9</td><td>PC TEST</td><td>A</td><td>5</td><td>0</td><td>5</td><td>329888.000000000</td><td>1241203.600000000</td><td>1571091.600000000</td><td>1565937.093544000</td><td>184062.906456000</td><td>1750000.000000000</td><td>-1236049.093544000</td><td>1387028.693544000</td>
+		</tr><tr>
+			<td>10</td><td>PC TEST</td><td>D New</td><td>2</td><td>0</td><td>2</td><td>179887.998563000</td><td>248446.900000000</td><td>428334.898563000</td><td>313363.035200000</td><td>82472.000000000</td><td>395835.035200000</td><td>-133475.036637000</td><td>345862.898563000</td>
+		</tr><tr>
+			<td>11</td><td>Konark Epitom</td><td>Tower 1</td><td>6</td><td>0</td><td>6</td><td>13195520.000000000</td><td>0.000000000</td><td>13195520.000000000</td><td>0.00</td><td>0</td><td>0.00</td><td>13195520.000000000</td><td>13195520.000000000</td>
+		</tr><tr>
+			<td>12</td><td>PC TEST</td><td>C New 2</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr>
+			<td>13</td><td>REVO GUCCI</td><td>A</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr>
+			<td>14</td><td>Konark Oasis</td><td>C</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr><tr>
+			<td>15</td><td>Konark Oasis</td><td>D</td><td>1</td><td>0</td><td>1</td><td>52065.900000000</td><td>35773.356900000</td><td>87839.256900000</td><td>0</td><td>0</td><td>0</td><td>52065.900000000</td><td>87839.256900000</td>
+		</tr><tr>
+			<td>16</td><td>Project for Interest Calculation</td><td>B</td><td>2</td><td>1</td><td>3</td><td>6082310.000000000</td><td>1474187.000000000</td><td>7556497.000000000</td><td>0</td><td>0</td><td>0</td><td>6082310.000000000</td><td>7556497.000000000</td>
+		</tr><tr>
+			<td>17</td><td>Sacred world, Pune</td><td>A</td><td>0</td><td>3</td><td>3</td><td>0</td><td>2941157.695361000</td><td>2941157.695361000</td><td>0</td><td>210.00</td><td>210.00</td><td>0</td><td>2940947.695361000</td>
+		</tr><tr>
+			<td>18</td><td>Konark Epitom</td><td>Tower 2</td><td>1</td><td>0</td><td>1</td><td>12695521.026110000</td><td>0</td><td>12695521.026110000</td><td>500000.00</td><td>0</td><td>500000.00</td><td>12195521.026110000</td><td>12695521.026110000</td>
+		</tr><tr>
+			<td>19</td><td>Financial Year Testing</td><td>A</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,51 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Filter</th><th scope="col">Name</th>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>Finantial Year</td><td>1st April 2014 to 31st March 2015</td>
+		</tr><tr>
+			<td>Project</td><td>Konark Bella Vista</td>
+		</tr><tr>
+			<td>Building</td><td> --Select Building--</td>
+		</tr><tr>
+			<td>Customer</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>Mode</td><td>Quarterly </td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div><div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Project</th><th scope="col">Building</th><th scope="col">Customer</th><th scope="col">FlatNo</th><th scope="col">GrandAmount</th><th scope="col">April_June</th><th scope="col">July_Sept</th><th scope="col">Oct_Dec</th><th scope="col">Jan_Mar</th><th scope="col">yearlyTotal</th>
+		</tr><tr>
+			<td>Konark Bella Vista</td><td>A</td><td>Hold for Landlord</td><td>103</td><td>1548.00</td><td>0</td><td>47.833200000</td><td>0</td><td>0</td><td>47.833200000</td>
+		</tr><tr>
+			<td>Konark Bella Vista</td><td>A</td><td>Hold for Landlord</td><td>104</td><td>1380.00</td><td>0</td><td>42.642000000</td><td>0</td><td>0</td><td>42.642000000</td>
+		</tr><tr>
+			<td>Konark Bella Vista</td><td>A</td><td>Chaitali Patil</td><td>201</td><td>4056179.00</td><td>29200.500000000</td><td>17520.300000000</td><td>70081.200000000</td><td>0</td><td>116802.000000000</td>
+		</tr><tr>
+			<td>Konark Bella Vista</td><td>A</td><td>Bhagavat Sing</td><td>203</td><td>5211901.00</td><td>0</td><td>0</td><td>77952.000000000</td><td>0</td><td>77952.000000000</td>
+		</tr><tr>
+			<td>Konark Bella Vista</td><td>A</td><td>Jitu Nehe</td><td>804</td><td>8365422.00</td><td>0</td><td>945032.374800000</td><td>0</td><td>0</td><td>945032.374800000</td>
+		</tr><tr>
+			<td>Konark Bella Vista</td><td>B</td><td>Vishal Sukhija</td><td>703</td><td>8820380.00</td><td>0</td><td>624921.600000000</td><td>0</td><td>0</td><td>624921.600000000</td>
+		</tr><tr>
+			<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div><div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Project</th><th scope="col">Building</th><th scope="col">April_June</th><th scope="col">July_Sept</th><th scope="col">Oct_Dec</th><th scope="col">Jan_Mar</th><th scope="col">yearlyTotal</th>
+		</tr><tr>
+			<td>Konark Bella Vista</td><td>A</td><td>29200.500000000</td><td>962643.150000000</td><td>148033.200000000</td><td>0</td><td>1139876.850000000</td>
+		</tr><tr>
+			<td>Konark Bella Vista</td><td>B</td><td>0</td><td>624921.600000000</td><td>0</td><td>0</td><td>624921.600000000</td>
+		</tr>
+	</table>
+</div>

@@ -1,0 +1,15 @@
+<table border="0">
+	<tr>
+		<th scope="col">Project</th><th scope="col">Building</th><th scope="col">FlatNo</th><th scope="col">Customer</th><th scope="col">AmountReq</th><th scope="col">BankName</th><th scope="col">BankLoanDate</th><th scope="col">ActualBankLoanDate</th><th scope="col">Comments</th>
+	</tr><tr>
+		<td>Konark Oasis</td><td>B</td><td>102</td><td>Sham Gujar</td><td>8500000.00</td><td>&nbsp;</td><td>02 Jun 1905</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>PC TEST</td><td>B New</td><td>101</td><td>Bhujang Lavhe</td><td>1.00</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+	</tr><tr>
+		<td>PC TEST</td><td>A</td><td>403</td><td>Nikhil Satpute</td><td>250000.00</td><td>State Bank of India</td><td>02 Jul 2014</td><td>05 Jul 2014</td><td>Comment in Loan Details iueld...............    Comment in Loan Details iueld...............    Comment in Loan Details iueld...............    Comment in Loan Details iueld...............    Comment in Loan Details iueld...............    Comment in Loan Details iueld...............</td>
+	</tr><tr>
+		<td>Konark Oasis</td><td>A</td><td>505</td><td>Ritesh Deshmukh</td><td>6500000.00</td><td>HDFC</td><td>05 Jul 2014</td><td>15 Jul 2014</td><td>comment in Loan Details..... for Ritesh Deshmukh.....</td>
+	</tr><tr>
+		<td>PC TEST</td><td>D New</td><td>302</td><td>Sunny Deol</td><td>120125.00</td><td>HDFC</td><td>01 Jul 2014</td><td>24 Jul 2014</td><td>comment in Loan Details for Sunny Deol........</td>
+	</tr>
+</table>

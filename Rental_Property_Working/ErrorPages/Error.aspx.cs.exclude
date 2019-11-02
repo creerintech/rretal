@@ -1,0 +1,59 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using MWML.Utility;
+
+public partial class ErrorPages_Error : System.Web.UI.Page
+{
+    #region Private Variable
+    CommanFunction obj_Comman = new CommanFunction();
+
+    #endregion
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!Page.IsPostBack)
+        {
+            if (Message.LastException != null)
+            {
+                this.MessageTextBox.Text= "Error Caught in Application_Error event\n" +
+                    "Error in: " + Request.Url.ToString() +
+                    "\n\nError Message:" + Message.LastException.Message.ToString() +
+                    "\n\nStack Trace:" + Message.LastException.StackTrace.ToString();
+             
+            }
+            else
+            {
+                //this should never happen.                
+                this.MessageTextBox.Text = "There is no exception.";
+            }
+            //=Email Service Working but Commented
+            //obj_Comman.SendMail("saste.alok7575@gmail.com", "Error: Ramky-BioMedical Waste Management", "<b> Error Caught in Application_Error event</b><br /><br />" +
+            //        "<b Style=Color:#CE2900;>Error in: " + Request.Url.ToString() +
+            //        "<br /><br />Error Message:" + Message.LastException.Message.ToString() +
+            //        "</b><br /><br /><span Style=Color:#CE2900;>Stack Trace:" + Message.LastException.StackTrace.ToString()+"</span>", "");
+            //=Email Service Working but Commented
+        }
+    }
+    protected void DetailLinkButton_Click(object sender, EventArgs e)
+    {
+        if (this.MessagePanel.Visible)
+        {
+            this.MessagePanel.Visible = false;
+            this.DetailLinkButton.Text = "Show Details";
+        }
+        else
+        {           
+            this.MessagePanel.Visible = true;
+            this.DetailLinkButton.Text = "Hide Details";
+        }
+    }
+}
